@@ -1,0 +1,7 @@
+mutation createNewPlayer($player: PlayerModel) {
+    addPlayer(player: $player) {
+        name
+        surname
+        position
+    }
+}

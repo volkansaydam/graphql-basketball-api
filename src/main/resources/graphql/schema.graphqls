@@ -1,0 +1,23 @@
+enum Position {
+    PG
+    SG
+    SF
+    PF
+    C
+}
+
+type Player {
+    name: String
+    surname: String
+    position: Position
+}
+
+input PlayerModel {
+    name: String!
+    surname: String!
+    position: Position!
+}
+
+type Mutation {
+    addPlayer(player: PlayerModel) : Player!
+}
