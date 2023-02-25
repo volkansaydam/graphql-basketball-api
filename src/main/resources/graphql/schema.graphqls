@@ -7,6 +7,7 @@ enum Position {
 }
 
 type Player {
+    id: ID
     name: String
     surname: String
     position: Position
@@ -18,6 +19,11 @@ input PlayerModel {
     position: Position!
 }
 
+type Query {
+    getAllPlayers : [Player]!
+}
+
 type Mutation {
     addPlayer(player: PlayerModel) : Player!
+    deletePlayer(id: ID) : ID!
 }
