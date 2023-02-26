@@ -22,6 +22,15 @@ this code: `./mvnw spring-boot:run`.
 And to run tests: `./mvnw test`. Or you can run it 
 with your favorite IDE using their maven plugin.
 
+## How To Use
+The Api Endpoint is `http://localhost:8080/`. If you want a 
+interface Spring Boot GraphQL Library provide an api 
+interface which is called [GraphiQL](https://github.com/graphql/graphiql).
+You can enable this feature with changing the 
+`spring.graphql.graphiql.enabled` options false to true 
+in the application properties. After rerun, you can 
+go to this endpoint: `http://localhost:8080/graphiql`
+
 
 
 
