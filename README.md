@@ -11,9 +11,11 @@ for GraphQL operations. It is written with
 I create a docker image and publish it from docker hub.
 ### What You Need To Run
 1. [Docker](https://www.docker.com/products/docker-desktop/)
+2. [Git](https://git-scm.com/downloads)
 ### How To Run
-You just need to run docker compose file at the 
-project directory: `docker-compose up`
+After cloning the project, you just need to run docker 
+compose file at the project 
+directory: `docker-compose up`
 ### How To Use
 The Api Endpoint is `http://localhost:8080/`. If you want a
 interface Spring Boot GraphQL Library provide an api
